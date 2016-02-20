@@ -10,11 +10,13 @@
     ]
   },
   "scripts": {
-    "build": "npm run lint && npm run compile",
-    "compile": "webpack",
+    "build": "webpack",
     "lint": "standard ./client/*.js && standard ./server/*.js",
+    "server": "json-server https://raw.githubusercontent.com/gdumitrescu/aggregator/master/db.json --static ./public",
+    "prestart": "npm run build",
+    "start-db": "json-server --watch db.json",
     "start-dev": "hjs-dev-server",
-    "start": "node index.js",
+    "start": "npm run server",
     "test": "npm run lint"
   },
   "repository": {
@@ -29,6 +31,7 @@
   "homepage": "https://github.com/gdumitrescu/aggregator#readme",
   "dependencies": {
     "express": "^4.13.4",
+    "json-server": "^0.8.8",
     "materialize-css": "^0.97.5",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"

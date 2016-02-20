@@ -13,7 +13,8 @@
 
 ### Development
 
-`$ npm start-dev`
+`$ npm run start-db`
+`$ npm run start-dev`
 
 ### Production
 
