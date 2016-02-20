@@ -1,0 +1,95 @@
+{
+  "lanes": [
+    {
+      "id": 1,
+      "name": "Front End"
+    },
+    {
+      "id": 2,
+      "name": "Back End"
+    },
+    {
+      "id": 3,
+      "name": "Hybrid"
+    },
+    {
+      "id": 4,
+      "name": "Android"
+    },
+    {
+      "id": 5,
+      "name": "iOS"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Eire"
+    },
+    {
+      "id": 2,
+      "name": "Mydo"
+    },
+    {
+      "id": 3,
+      "name": "Kare"
+    },
+    {
+      "id": 4,
+      "name": "Avamm"
+    },
+    {
+      "id": 5,
+      "name": "Skimia"
+    }
+  ],
+  "stages": [
+    {
+      "id": 1,
+      "name": "dev",
+      "displayName": "Development"
+    },
+    {
+      "id": 2,
+      "name": "test",
+      "displayName": "Test"
+    },
+    {
+      "id": 3,
+      "name": "demo",
+      "displayName": "Demo"
+    },
+    {
+      "id": 4,
+      "name": "live",
+      "displayName": "Live"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "demo",
+      "email": "demo@gmail.com"
+    },
+    {
+      "id": 2,
+      "username": "lstephens",
+      "email": "lstephens@gmail.com"
+    },
+    {
+      "id": 3,
+      "username": "cwells",
+      "email": "cwells@gmail.com"
+    },
+    {
+      "id": 4,
+      "username": "rhill",
+      "email": "rhill@gmail.com"
+    },
+    {
+      "id": 5,
+      "username": "cmorgan",
+      "email": "cmorgan@gmail.com"
+    }
+  ]
+}
