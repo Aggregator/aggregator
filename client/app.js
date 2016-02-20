@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom'
 
 import 'materialize-css/dist/css/materialize.css'
@@ -23,7 +23,7 @@ class App extends React.Component{
                   </div>
                   <div className="col">
                      <div className="card-panel grey">Live</div>
-                  </div>                                    
+                  </div>
               </div>
             </div>
             <div className="divider"></div>
@@ -34,14 +34,14 @@ class App extends React.Component{
                      <div className="card-panel green">Dev</div>
                   </div>
                   <div className="col">
-                     <div className="card-panel amber">Test</div>
+                     <div className="card-panel red">Test</div>
                   </div>
                   <div className="col">
                      <div className="card-panel red">Demo</div>
                   </div>
                   <div className="col">
-                     <div className="card-panel grey">Live</div>
-                  </div>                                    
+                     <div className="card-panel red">Live</div>
+                  </div>
               </div>
             </div>
             <div className="divider"></div>
@@ -55,14 +55,14 @@ class App extends React.Component{
                      <div className="card-panel amber">Test</div>
                   </div>
                   <div className="col">
-                     <div className="card-panel red">Demo</div>
+                     <div className="card-panel grey">Demo</div>
                   </div>
                   <div className="col">
-                     <div className="card-panel grey lighten-1">Live</div>
-                  </div>                                    
+                     <div className="card-panel grey">Live</div>
+                  </div>
               </div>
             </div>
-            <div className="divider"></div>            
+            <div className="divider"></div>
             <div className="row">
               <div className="col s2">iOS</div>
               <div className="col s10">
@@ -70,17 +70,17 @@ class App extends React.Component{
                      <div className="card-panel green">Dev</div>
                   </div>
                   <div className="col">
-                     <div className="card-panel amber">Test</div>
+                     <div className="card-panel green">Test</div>
                   </div>
                   <div className="col">
-                     <div className="card-panel red">Demo</div>
+                     <div className="card-panel amber">Demo</div>
                   </div>
                   <div className="col">
-                     <div className="card-panel grey lighten-1">Live</div>
-                  </div>                                    
+                     <div className="card-panel red">Live</div>
+                  </div>
               </div>
             </div>
-            <div className="divider"></div>            
+            <div className="divider"></div>
             <div className="row">
               <div className="col s2">Hybrid</div>
               <div className="col s10">
@@ -88,26 +88,26 @@ class App extends React.Component{
                      <div className="card-panel green">Dev</div>
                   </div>
                   <div className="col">
-                     <div className="card-panel amber">Test</div>
+                     <div className="card-panel green">Test</div>
                   </div>
                   <div className="col">
-                     <div className="card-panel red">Demo</div>
+                     <div className="card-panel green">Demo</div>
                   </div>
                   <div className="col">
-                     <div className="card-panel grey">Live</div>
-                  </div>                                    
+                     <div className="card-panel green">Live</div>
+                  </div>
               </div>
             </div>
-            <div className="divider"></div>            
           </div>
         </div>
         <div className="col s4">
           <div className="section">
             <ul className="collection with-header">
               <li className="collection-header">
-                <h6>Projects</h6>
-              </li>            
-              <li><a href="#!" className="collection-item active">Wikido</a></li>
+                <h5>Projects</h5>
+              </li>
+              <li><a href="#!" className="collection-item avatar active">
+                <img src="http://lorempixel.com/30/30/technics" className="circle" alt="Wikido"/>Wikido</a></li>
               <li><a href="#!" className="collection-item">Skalith</a></li>
               <li><a href="#!" className="collection-item">Linkbuzz</a></li>
               <li><a href="#!" className="collection-item">Zoonoodle</a></li>
