@@ -7,10 +7,10 @@ export default class Layout extends React.Component{
   render () {
     return (
       <div className="row">
-        <div className="col s10">
+        <div className="col s9">
           <Stages/>
         </div>
-        <div className="col s2">
+        <div className="col s3">
           <Projects/>
         </div>
       </div>
