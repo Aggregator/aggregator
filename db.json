@@ -2,45 +2,55 @@
   "lanes": [
     {
       "id": 1,
-      "name": "Front End"
+      "name": "front-end",
+      "displayName": "Front End"
     },
     {
       "id": 2,
-      "name": "Back End"
+      "name": "back-end",
+      "displayName": "back-end"
     },
     {
       "id": 3,
-      "name": "Hybrid"
+      "name": "hybrid",
+      "displayName": "Hybrid"
     },
     {
       "id": 4,
-      "name": "Android"
+      "name": "android",
+      "displayName": "Android"
     },
     {
       "id": 5,
-      "name": "iOS"
+      "name": "ios",
+      "displayName": "iOS"
     }
   ],
   "projects": [
     {
       "id": 1,
-      "name": "Eire"
+      "name": "eire",
+      "displayName": "Eire"
     },
     {
       "id": 2,
-      "name": "Mydo"
+      "name": "mydo",
+      "displayName": "Mydo"
     },
     {
       "id": 3,
-      "name": "Kare"
+      "name": "kare",
+      "displayName": "Kare"
     },
     {
       "id": 4,
-      "name": "Avamm"
+      "name": "avamm",
+      "ndisplayNme": "Avamm"
     },
     {
       "id": 5,
-      "name": "Skimia"
+      "name": "skimia",
+      "nadisplayNe": "Skimia"
     }
   ],
   "stages": [
