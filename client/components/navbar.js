@@ -1,8 +1,8 @@
-import React from 'react'
+import React, {Component} from 'react'
 
 import {SocialNotifications} from 'material-ui/lib/svg-icons'
 
-export default class Navbar extends React.Component{
+export default class Navbar extends Component{
   render () {
     return (
       <nav className="teal">

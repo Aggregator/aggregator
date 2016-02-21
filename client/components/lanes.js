@@ -1,13 +1,13 @@
-import React from 'react'
+import React, {Component} from 'react'
 
 import {Card, CardHeader, CardTitle, CardText} from 'material-ui'
 import {AlertError, AlertWarning, ActionDone} from 'material-ui/lib/svg-icons'
 import {Colors} from 'material-ui/lib/styles'
 
-export default class Stages extends React.Component{
+export default class Lanes extends Component{
   render () {
     return (
-      <div className="section" id="stages">
+      <div className="section" id="lanes">
         <div className="row">
           <div className="col s2">
             <h6>Back End</h6>

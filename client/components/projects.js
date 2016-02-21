@@ -1,6 +1,6 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-export default class Projects extends React.Component{
+export default class Projects extends Component{
   render () {
     return (
       <div className="section" id="projects">
