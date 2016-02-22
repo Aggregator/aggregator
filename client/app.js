@@ -14,10 +14,10 @@ import 'materialize-css/dist/css/materialize.css'
 import Header from './components/common/header/header'
 import Layout from './components/layouts/layout'
 
-class App extends Component{
+class App extends Component {
   render () {
     return (
-      <section className="main" id="main">
+      <section className='main' id='main'>
         <Header/>
         <Layout/>
       </section>

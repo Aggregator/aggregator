@@ -1,12 +1,12 @@
+/* global describe, it */
 import React from 'react'
-import TestUtils, {createRenderer} from 'react-addons-test-utils'
+import {createRenderer} from 'react-addons-test-utils'
 
 import expect from 'expect'
 
 import Footer from './footer'
 
 describe('Footer component', () => {
-
   it('shallow renders a footer', () => {
     let renderer = createRenderer()
     renderer.render(<Footer/>)
