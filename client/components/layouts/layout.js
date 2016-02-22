@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 
-import Lanes from './lanes'
-import Projects from './projects'
+import Lanes from '../lanes/lanes'
+import Projects from '../projects/projects'
 
 export default class Layout extends Component{
   render () {

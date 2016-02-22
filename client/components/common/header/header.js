@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-import Navbar from './navbar'
+import Navbar from '../navbar/navbar'
 
 export default class Header extends Component{
   render () {
