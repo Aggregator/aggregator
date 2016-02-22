@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
 
 // import injectTapEventPlugin from 'react-tap-event-plugin'
@@ -11,13 +11,13 @@ import ReactDOM from 'react-dom'
 
 import 'materialize-css/dist/css/materialize.css'
 
-import Header from './components/header'
-import Layout from './components/layout'
+import Header from './components/common/header/header'
+import Layout from './components/layouts/layout'
 
-class App extends React.Component{
+class App extends Component {
   render () {
     return (
-      <section className="main" id="main">
+      <section className='main' id='main'>
         <Header/>
         <Layout/>
       </section>
