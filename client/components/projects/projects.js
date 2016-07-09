@@ -9,7 +9,7 @@ export default class Projects extends Component {
             <h5>Projects</h5>
           </li>
           <li><a href='#' className='collection-item avatar active'>
-            <img src='http://lorempixel.com/30/30/technics/1' className='circle' alt='Wikido'/>Wikido</a></li>
+            <img src='http://lorempixel.com/30/30/technics/1' className='circle' alt='Wikido' />Wikido</a></li>
           <li><a href='#' className='collection-item'>Skalith</a></li>
           <li><a href='#' className='collection-item'>Linkbuzz</a></li>
           <li><a href='#' className='collection-item'>Zoonoodle</a></li>

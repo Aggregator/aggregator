@@ -8,10 +8,10 @@ export default class Layout extends Component {
     return (
       <div className='row'>
         <div className='col s10'>
-          <Lanes/>
+          <Lanes />
         </div>
         <div className='col s2'>
-          <Projects/>
+          <Projects />
         </div>
       </div>
     )

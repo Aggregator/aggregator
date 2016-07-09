@@ -9,7 +9,7 @@ import Footer from './footer'
 describe('Footer component', () => {
   it('shallow renders a footer', () => {
     let renderer = createRenderer()
-    renderer.render(<Footer/>)
+    renderer.render(<Footer />)
     let actualElement = renderer.getRenderOutput()
     let expectedElement = <footer></footer>
     expect(actualElement).toEqual(expectedElement)

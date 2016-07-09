@@ -7,7 +7,7 @@ export default class Header extends Component {
     return (
       <header className='page-header'>
         <div className='navbar-fixed'>
-          <Navbar/>
+          <Navbar />
         </div>
       </header>
     )

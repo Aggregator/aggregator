@@ -13,7 +13,7 @@
     "build": "webpack",
     "deploy": "surge -p ./public -d aggregator.surge.sh",
     "eslint": "eslint --fix .client/**/*.js",
-    "lint": "standard ./client/*.js && standard ./server/*.js",
+    "lint": "standard ./client/**/*.js && standard ./server/**/*.js",
     "server": "json-server https://raw.githubusercontent.com/gdumitrescu/aggregator/master/db.json --static ./public",
     "prestart": "npm run build",
     "start:db": "json-server --watch db.json",

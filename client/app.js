@@ -20,7 +20,7 @@ class App extends Component {
   render () {
     return (
       <MuiThemeProvider>
-        <section id='main'>
+        <section id='main' className='main'>
           <Header />
           <Layout />
         </section>
