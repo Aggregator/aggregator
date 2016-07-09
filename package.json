@@ -11,6 +11,7 @@
   },
   "scripts": {
     "build": "webpack",
+    "deploy": "surge -p ./public -d aggregator.surge.sh",
     "eslint": "eslint --fix .client/**/*.js",
     "lint": "standard ./client/*.js && standard ./server/*.js",
     "server": "json-server https://raw.githubusercontent.com/gdumitrescu/aggregator/master/db.json --static ./public",
@@ -64,6 +65,7 @@
     "skin-deep": "^0.16.0",
     "standard": "^7.1.2",
     "style-loader": "^0.13.0",
+    "surge": "^0.18.0",
     "url-loader": "^0.5.7",
     "webpack": "^1.12.13",
     "webpack-dev-server": "^1.14.1"
