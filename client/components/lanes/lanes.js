@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 
 import {Card, CardHeader, CardTitle, CardText} from 'material-ui'
 import {AlertError, AlertWarning, ActionDone} from 'material-ui/svg-icons'
-import {Colors} from 'material-ui/styles'
+import {red700, yellow700, green700} from 'material-ui/styles/colors'
 
 export default class Lanes extends Component {
   render () {
@@ -17,7 +17,7 @@ export default class Lanes extends Component {
               <div className='col'>
                  <Card>
                   <CardHeader title='DEV' subtitle='version: v1.0.13'>
-                    <AlertError color={Colors.redA700} />
+                    <AlertError color={red700} />
                   </CardHeader>
                   <CardTitle subtitle='#develop | build: #110' />
                   <CardText>
@@ -29,7 +29,7 @@ export default class Lanes extends Component {
               <div className='col'>
                  <Card>
                   <CardHeader title='TEST' subtitle='version: v1.0.1'>
-                    <AlertWarning color={Colors.yellowA700} />
+                    <AlertWarning color={yellow700} />
                   </CardHeader>
                   <CardTitle subtitle='#develop | build: #101' />
                   <CardText>
@@ -41,7 +41,7 @@ export default class Lanes extends Component {
               <div className='col'>
                  <Card>
                   <CardHeader title='DEMO' subtitle='version: v1.0.0'>
-                    <ActionDone color={Colors.greenA700} />
+                    <ActionDone color={green700} />
                   </CardHeader>
                   <CardTitle subtitle='#master | build: #99' />
                   <CardText>
@@ -53,7 +53,7 @@ export default class Lanes extends Component {
               <div className='col'>
                  <Card>
                   <CardHeader title='LIVE' subtitle='version: v0.14.0'>
-                    <ActionDone color={Colors.greenA700} />
+                    <ActionDone color={green700} />
                   </CardHeader>
                   <CardTitle subtitle='#master | build: #90' />
                   <CardText>
@@ -76,7 +76,7 @@ export default class Lanes extends Component {
               <div className='col'>
                  <Card>
                   <CardHeader title='DEV' subtitle='version: v2.0.13'>
-                    <AlertError color={Colors.redA700} />
+                    <AlertError color={red700} />
                   </CardHeader>
                   <CardTitle subtitle='#develop | build: #50' />
                   <CardText>
@@ -88,7 +88,7 @@ export default class Lanes extends Component {
               <div className='col'>
                  <Card>
                   <CardHeader title='TEST' subtitle='version: v2.0.1'>
-                    <AlertWarning color={Colors.yellowA700} />
+                    <AlertWarning color={yellow700} />
                   </CardHeader>
                   <CardTitle subtitle='#develop | build: #29' />
                   <CardText>
@@ -100,7 +100,7 @@ export default class Lanes extends Component {
               <div className='col'>
                  <Card>
                   <CardHeader title='DEMO' subtitle='version: v2.0.0'>
-                    <AlertError color={Colors.redA700} />
+                    <AlertError color={red700} />
                   </CardHeader>
                   <CardTitle subtitle='#master | build: #24' />
                   <CardText>
@@ -112,7 +112,7 @@ export default class Lanes extends Component {
               <div className='col'>
                  <Card>
                   <CardHeader title='LIVE' subtitle='version: v1.4.0'>
-                    <AlertError color={Colors.redA700} />
+                    <AlertError color={red700} />
                   </CardHeader>
                   <CardTitle subtitle='#master | build: #10' />
                   <CardText>
@@ -135,7 +135,7 @@ export default class Lanes extends Component {
               <div className='col'>
                  <Card>
                   <CardHeader title='DEV' subtitle='version: v1.0.13'>
-                    <AlertError color={Colors.redA700} />
+                    <AlertError color={red700} />
                   </CardHeader>
                   <CardTitle subtitle='#develop | build: #70' />
                   <CardText>
@@ -147,7 +147,7 @@ export default class Lanes extends Component {
               <div className='col'>
                  <Card>
                   <CardHeader title='TEST' subtitle='version: v1.0.11'>
-                    <AlertWarning color={Colors.yellowA700} />
+                    <AlertWarning color={yellow700} />
                   </CardHeader>
                   <CardTitle subtitle='#develop | build: #67' />
                   <CardText>
@@ -159,7 +159,7 @@ export default class Lanes extends Component {
               <div className='col'>
                  <Card>
                   <CardHeader title='DEMO' subtitle='version: v1.0.10'>
-                    <ActionDone color={Colors.greenA700} />
+                    <ActionDone color={green700} />
                   </CardHeader>
                   <CardTitle subtitle='#master | build: #55' />
                   <CardText>
@@ -171,7 +171,7 @@ export default class Lanes extends Component {
               <div className='col'>
                  <Card>
                   <CardHeader title='LIVE' subtitle='version: v0.14.0'>
-                    <ActionDone color={Colors.greenA700} />
+                    <ActionDone color={green700} />
                   </CardHeader>
                   <CardTitle subtitle='#master | build: #45' />
                   <CardText>
@@ -194,7 +194,7 @@ export default class Lanes extends Component {
               <div className='col'>
                  <Card>
                   <CardHeader title='DEV' subtitle='version: v1.1.3'>
-                    <AlertWarning color={Colors.yellowA700} />
+                    <AlertWarning color={yellow700} />
                   </CardHeader>
                   <CardTitle subtitle='#develop | build: #65' />
                   <CardText>
@@ -206,7 +206,7 @@ export default class Lanes extends Component {
               <div className='col'>
                  <Card>
                   <CardHeader title='TEST' subtitle='version: v1.1.0'>
-                    <ActionDone color={Colors.greenA700} />
+                    <ActionDone color={green700} />
                   </CardHeader>
                   <CardTitle subtitle='#develop | build: #47' />
                   <CardText>
@@ -218,7 +218,7 @@ export default class Lanes extends Component {
               <div className='col'>
                  <Card>
                   <CardHeader title='DEMO' subtitle='version: v1.0.0'>
-                    <ActionDone color={Colors.greenA700} />
+                    <ActionDone color={green700} />
                   </CardHeader>
                   <CardTitle subtitle='#master | build: #34' />
                   <CardText>
@@ -230,7 +230,7 @@ export default class Lanes extends Component {
               <div className='col'>
                  <Card>
                   <CardHeader title='LIVE' subtitle='version: v0.5.0'>
-                    <ActionDone color={Colors.greenA700} />
+                    <ActionDone color={green700} />
                   </CardHeader>
                   <CardTitle subtitle='#master | build: #20' />
                   <CardText>
@@ -253,7 +253,7 @@ export default class Lanes extends Component {
               <div className='col'>
                  <Card>
                   <CardHeader title='DEV' subtitle='version: v1.0.13'>
-                    <ActionDone color={Colors.greenA700} />
+                    <ActionDone color={green700} />
                   </CardHeader>
                   <CardTitle subtitle='#develop | build: #78' />
                   <CardText>
@@ -266,7 +266,7 @@ export default class Lanes extends Component {
               <div className='col'>
                  <Card>
                   <CardHeader title='TEST' subtitle='version: v1.0.1'>
-                    <ActionDone color={Colors.greenA700} />
+                    <ActionDone color={green700} />
                   </CardHeader>
                   <CardTitle subtitle='#develop | build: #68' />
                   <CardText>
@@ -279,7 +279,7 @@ export default class Lanes extends Component {
               <div className='col'>
                  <Card>
                   <CardHeader title='DEMO' subtitle='version: v1.0.0'>
-                    <ActionDone color={Colors.greenA700} />
+                    <ActionDone color={green700} />
                   </CardHeader>
                   <CardTitle subtitle='#master | build: #56' />
                   <CardText>
@@ -292,7 +292,7 @@ export default class Lanes extends Component {
               <div className='col'>
                  <Card>
                   <CardHeader title='LIVE' subtitle='version: v0.14.0'>
-                    <ActionDone color={Colors.greenA700} />
+                    <ActionDone color={green700} />
                   </CardHeader>
                   <CardTitle subtitle='#master | build: #49' />
                   <CardText>
