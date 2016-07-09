@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 
 import {Card, CardHeader, CardTitle, CardText} from 'material-ui'
-import {AlertError, AlertWarning, ActionDone} from 'material-ui/lib/svg-icons'
-import {Colors} from 'material-ui/lib/styles'
+import {AlertError, AlertWarning, ActionDone} from 'material-ui/svg-icons'
+import {Colors} from 'material-ui/styles'
 
 export default class Lanes extends Component {
   render () {
