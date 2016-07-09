@@ -9,7 +9,7 @@ import injectTapEventPlugin from 'react-tap-event-plugin'
 // // Can go away when react 1.0 release
 // // Check this repo:
 // // https://github.com/zilverline/react-tap-event-plugin
-injectTapEventPlugin();
+injectTapEventPlugin()
 
 import 'materialize-css/dist/css/materialize.css'
 
@@ -21,12 +21,12 @@ class App extends Component {
     return (
       <MuiThemeProvider>
         <section id='main'>
-          <Header/>
-          <Layout/>
+          <Header />
+          <Layout />
         </section>
       </MuiThemeProvider>
     )
   }
 }
 const root = document.getElementById('root')
-ReactDOM.render(<App/>, root)
+ReactDOM.render(<App />, root)
