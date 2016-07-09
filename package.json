@@ -20,7 +20,6 @@
     "start": "npm run server",
     "test": "mocha client/components/**/*.spec.js --compilers js:babel-register",
     "test:watch": "mocha client/components/**/*.spec.js --compilers js:babel-register --watch --reporter min"
-
   },
   "repository": {
     "type": "git",
