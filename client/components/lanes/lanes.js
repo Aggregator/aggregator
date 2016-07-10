@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 import {Card, CardHeader, CardTitle, CardText} from 'material-ui'
 import {AlertError, AlertWarning, ActionDone} from 'material-ui/svg-icons'
 import {red700, yellow700, green700} from 'material-ui/styles/colors'
-import styles from './lanes.styl'
+import './lanes.styl'
 
 export default class Lanes extends Component {
   render () {
