@@ -5,6 +5,7 @@ module.exports = getConfig({
   out: './public',
   clearBeforeBuild: true,
   devServer: {
-    port: 9000
+    port: 9000,
+    hot: true
   }
 })

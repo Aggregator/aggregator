@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 export default class Projects extends Component {
   render () {
     return (
-      <div className='section' id='projects'>
+      <section className='section-projects' id='projects'>
         <ul className='collection with-header'>
           <li className='collection-header'>
             <h5>Projects</h5>
@@ -15,7 +15,7 @@ export default class Projects extends Component {
           <li><a href='#' className='collection-item'>Zoonoodle</a></li>
           <li><a href='#' className='collection-item'>Buzzster</a></li>
         </ul>
-      </div>
+      </section>
     )
   }
 }
