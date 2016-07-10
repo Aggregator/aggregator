@@ -1,9 +1,12 @@
 plugins:
   - react
+  - filenames
 
 extends:
   - eslint:recommended
   - plugin:react/recommended
+
+parser: babel-eslint
 
 parserOptions:
   sourceType: module
@@ -13,10 +16,10 @@ parserOptions:
     restParams: true
     spread: true
 
-
 env:
   amd: true
   browser: true
+  commonjs: true
   es6: true
   jquery: true
   node: true
@@ -223,6 +226,11 @@ rules:
   prefer-spread: 0
   prefer-template: 0
   require-yield: 0
+
+  # Filenames
+  filenames/match-regex: [2, "^[a-z.-]+$"]
+  filenames/match-exported: 1
+  filenames/no-index: 1
 
   # React
   react/display-name: 1

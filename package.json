@@ -47,6 +47,7 @@
     "babel-register": "^6.5.2",
     "css-loader": "^0.23.1",
     "eslint": "^2.1.0",
+    "eslint-plugin-filenames": "^1.0.0",
     "eslint-plugin-react": "^5.2.2",
     "expect": "^1.14.0",
     "expect-jsx": "^2.6.0",
