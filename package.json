@@ -19,9 +19,8 @@
     "start:db": "json-server --watch db.json",
     "start:dev": "hjs-dev-server",
     "start": "npm run server",
-    "test": "mocha client/components/**/*.spec.js --compilers js:babel-register",
-    "test:watch": "mocha client/components/**/*.spec.js --compilers js:babel-register --watch --reporter min"
-
+    "test": "mocha client/components/**/*.spec.js",
+    "test:watch": "npm run test --  -w"
   },
   "repository": {
     "type": "git",
@@ -48,7 +47,7 @@
     "chai": "^3.5.0",
     "css-loader": "^0.23.1",
     "expect": "^1.14.0",
-    "expect-jsx": "^2.3.0",
+    "expect-jsx": "^2.6.0",
     "file-loader": "^0.9.0",
     "hjs-webpack": "^8.3.0",
     "html-loader": "^0.4.3",

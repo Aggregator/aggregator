@@ -13,9 +13,11 @@
 
 ### Development
 
-`$ npm run start-db`
+`$ npm run start:db`
 
-`$ npm run start-dev`
+`$ npm run start:dev`
+
+`$ npm run test:watch`
 
 ### Production
 
