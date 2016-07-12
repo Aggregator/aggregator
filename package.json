@@ -20,6 +20,7 @@
     "prestart": "npm run build",
     "start:db": "json-server --watch db.json",
     "start:dev": "hjs-dev-server",
+    "start:dev:watch": "webpack-dev-server --content-base ./public/",
     "start": "npm run server",
     "test": "mocha client/**/*.spec.js",
     "test:watch": "npm run test --  -w"
@@ -87,7 +88,7 @@
     "stylus-loader": "^2.1.1",
     "surge": "^0.18.0",
     "url-loader": "^0.5.7",
-    "webpack": "^1.12.13",
+    "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
   }
 }

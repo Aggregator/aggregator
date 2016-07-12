@@ -17,6 +17,8 @@
 
 `$ npm run start:dev`
 
+`$ npm run start:dev:watch`
+
 `$ npm run test:watch`
 
 ### Production
