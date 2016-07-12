@@ -12,17 +12,18 @@
   "scripts": {
     "build": "webpack",
     "deploy": "surge --project ./public --domain aggregator.surge.sh",
-    "lint": "eslint --fix ./client/**/*.js && eslint --fix ./server/**/*.js",
     "format": "standard ./client/**/*.js && standard ./server/**/*.js",
     "karma:unit": "karma start",
     "karma:unit:watch": "npm run karma:unit -- --no-single-run --auto-watch",
-    "server": "json-server https://raw.githubusercontent.com/gdumitrescu/aggregator/master/db.json --static ./public",
+    "lint": "eslint --fix ./client/**/*.js && eslint --fix ./server/**/*.js",
     "prestart": "npm run build",
+    "server": "json-server https://raw.githubusercontent.com/gdumitrescu/aggregator/master/db.json --static ./public",
     "start:db": "json-server --watch db.json",
     "start:dev": "hjs-dev-server",
     "start:dev:watch": "webpack-dev-server --content-base ./public/ --inline",
     "start": "npm run server",
     "test": "mocha client/**/*.spec.js",
+    "test:e2e": "nightwatch-autorun",
     "test:watch": "npm run test -- --watch"
   },
   "pre-commit": [
@@ -74,6 +75,7 @@
     "material-ui": "^0.15.1",
     "materialize-css": "0.97.6",
     "mocha": "^2.4.5",
+    "nightwatch-autorun": "^3.0.0",
     "node-sass": "^3.4.2",
     "postcss-loader": "^0.9.1",
     "pre-commit": "^1.1.3",
