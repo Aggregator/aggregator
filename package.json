@@ -11,19 +11,19 @@
   },
   "scripts": {
     "build": "webpack",
-    "deploy": "surge -p ./public -d aggregator.surge.sh",
+    "deploy": "surge --project ./public --domain aggregator.surge.sh",
     "lint": "eslint --fix ./client/**/*.js && eslint --fix ./server/**/*.js",
     "format": "standard ./client/**/*.js && standard ./server/**/*.js",
     "karma:unit": "karma start",
-    "karma:unit:watch": "npm run karma:unit -- --singleRun=false --autoWatch=true",
+    "karma:unit:watch": "npm run karma:unit -- --no-single-run --auto-watch",
     "server": "json-server https://raw.githubusercontent.com/gdumitrescu/aggregator/master/db.json --static ./public",
     "prestart": "npm run build",
     "start:db": "json-server --watch db.json",
     "start:dev": "hjs-dev-server",
-    "start:dev:watch": "webpack-dev-server --content-base ./public/",
+    "start:dev:watch": "webpack-dev-server --content-base ./public/ --inline",
     "start": "npm run server",
     "test": "mocha client/**/*.spec.js",
-    "test:watch": "npm run test --  -w"
+    "test:watch": "npm run test -- --watch"
   },
   "pre-commit": [
     "lint",
