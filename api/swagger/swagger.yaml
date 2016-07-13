@@ -1,0 +1,53 @@
+swagger: "2.0"
+info:
+  title: Aggregator API
+  description: Current state of all environments
+  version: "1.0.0"
+
+host: localhost:3000
+
+schemes:
+  - https
+
+basePath: /v1
+
+produces:
+  - application/json
+
+paths:
+  /projects:
+    get:
+      description: All Projects
+      responses:
+        "200":
+          description: An array of Projects
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/Project'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+
+definitions:
+  Project:
+    properties:
+      id:
+        type: string
+        description: Unique identifier
+      name: 
+        type: string
+        description: Project name
+        
+  Error:
+    properties:
+      status:
+        type: integer
+      message:
+        type: string
+      code:
+        type: integer
+      info:
+        type: string
+        
