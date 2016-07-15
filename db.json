@@ -45,12 +45,12 @@
     {
       "id": 4,
       "name": "avamm",
-      "ndisplayNme": "Avamm"
+      "displayName": "Avamm"
     },
     {
       "id": 5,
       "name": "skimia",
-      "nadisplayNe": "Skimia"
+      "displayName": "Skimia"
     }
   ],
   "stages": [
