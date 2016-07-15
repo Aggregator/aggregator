@@ -24,7 +24,7 @@
     "start:dev:watch": "webpack-dev-server --content-base ./public/ --inline",
     "start": "npm run server",
     "storybook": "start-storybook -p 9001",
-    "test": "mocha client/**/*.spec.js",
+    "test": "mocha client/components/**/*.spec.js",
     "test:e2e": "nightwatch-autorun",
     "test:watch": "npm run test -- --watch"
   },
@@ -84,7 +84,6 @@
     "material-ui": "^0.15.1",
     "materialize-css": "0.97.6",
     "mocha": "^2.5.3",
-    "mocha-loader": "^0.7.1",
     "nightwatch-autorun": "^3.0.0",
     "node-sass": "^3.4.2",
     "postcss-loader": "^0.9.1",
