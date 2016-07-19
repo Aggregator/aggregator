@@ -4,7 +4,7 @@ import { GetProjects } from '../../services/api'
 
 export default class Projects extends Component {
   constructor (props) {
-    super (props)
+    super(props)
     this.state = {
       projects: []
     }
@@ -14,20 +14,20 @@ export default class Projects extends Component {
     this.refreshProjects()
   }
 
-  refreshProjects() {
+  refreshProjects () {
     var self = this
     GetProjects().then(payload => {
       self.setState({
         projects: payload
-      });
+      })
     })
     .catch(error => {
-      console.log(error);
+      console.log(error)
     })
   }
   render () {
     const projects = this.state.projects
-    const projectsList = projects.map( project => {
+    const projectsList = projects.map(project => {
       return (
         <li key={project.id}>
           <a href='#' className='collection-item'>{project.displayName}</a>
