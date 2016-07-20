@@ -1,6 +1,6 @@
 import { configure } from '@kadira/storybook'
 
-function loadStories() {
+function loadStories () {
   require('../test/stories/footer')
   // require as many as stories you need.
 }

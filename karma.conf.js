@@ -1,8 +1,6 @@
 // Karma configuration
 
-var webpack = require('webpack');
-
-module.exports = function(config) {
+module.exports = function (config) {
   config.set({
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
@@ -14,7 +12,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'client/**/*.spec.js' 
+      'client/**/*.spec.js'
     ],
 
     // list of files to exclude
@@ -39,7 +37,7 @@ module.exports = function(config) {
 
     coverageReporter: {
       // specify a common output directory
-      dir : 'coverage/',
+      dir: 'coverage/',
       reporters: [
         { type: 'html', subdir: 'html' },
         { type: 'lcov', subdir: 'lcov' },
@@ -80,13 +78,13 @@ module.exports = function(config) {
       'karma-mocha-reporter'
     ],
 
-    webpack: { //kind of a copy of your webpack config
-      //devtool: 'inline-source-map', //just do inline source maps instead of the default
+    webpack: { // kind of a copy of your webpack config
+      // devtool: 'inline-source-map', // just do inline source maps instead of the default
       module: {
         loaders: [
           { test: /\.js$/, exclude: /node_modules/, loader: 'babel' }
         ],
-        //delays coverage til after tests are run, fixing transpiled source coverage error
+        // delays coverage til after tests are run, fixing transpiled source coverage error
         postLoaders: [
           { test: /\.js$/, exclude: /node_modules/, loader: 'istanbul-instrumenter' }
         ]
@@ -94,7 +92,7 @@ module.exports = function(config) {
       watch: true
     },
     webpackServer: {
-      noInfo: true //please don't spam the console when running in karma!
+      noInfo: true // please don't spam the console when running in karma!
     }
   })
 }
