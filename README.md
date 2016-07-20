@@ -9,6 +9,7 @@
 
 [![Stories in Ready](https://badge.waffle.io/gdumitrescu/aggregator.svg?label=ready&title=Ready)](http://waffle.io/gdumitrescu/aggregator)
 [![Stories in Doing](https://badge.waffle.io/gdumitrescu/aggregator.svg?label=in%20progress&title=Doing)](http://waffle.io/gdumitrescu/aggregator)
+[![Stories in Review](https://badge.waffle.io/gdumitrescu/aggregator.svg?label=in%20review&title=Review)](http://waffle.io/gdumitrescu/aggregator)
 
 [![Throughput Graph](https://graphs.waffle.io/gdumitrescu/aggregator/throughput.svg)](https://waffle.io/gdumitrescu/aggregator/metrics)
 
