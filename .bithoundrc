@@ -1,4 +1,8 @@
 "critics": {
   "lint": {"engine": "standard"}
-  "wc": { "limit": 10000 }
+  "wc": { "limit": 10000 },
+  "ignore": [
+    "**/api/swagger*",
+    "**/api/swagger-ui*"
+  ]
 }
