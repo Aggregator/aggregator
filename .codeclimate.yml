@@ -18,3 +18,5 @@ exclude_paths:
   - public
   - client/**/*.spec.js
   - server/**/*.spec.js
+  - api/swagger
+  - api/swagger-ui
