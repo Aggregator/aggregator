@@ -1,3 +1,8 @@
 --compilers js:babel-register
 --require ./test/helper.js
 --recursive
+--bail
+--reporter spec
+--ui bdd
+client/components/**/*.js
+client/components/common/**/*.js
