@@ -3,8 +3,8 @@
   "wc": { "limit": 10000 },
   "ignore": [
     "**/api/swagger/**",
-    "**/api/swagger-ui/**",
-    "**/api/swagger-ui/lang/**",
-    "**/api/swagger-ui/lib/**"
+    "**/api/swagger-ui/*.js",
+    "**/api/swagger-ui/lang/*.js",
+    "**/api/swagger-ui/lib/*.js"
   ]
 }
