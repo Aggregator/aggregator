@@ -32,6 +32,10 @@
     "test:e2e": "nightwatch-autorun",
     "test:watch": "npm run test -- --watch"
   },
+  "engines": {
+    "node": ">=4.6.0",
+    "npm": ">=3.10.8"
+  },
   "pre-commit": [
     "lint",
     "format",
@@ -95,7 +99,6 @@
     "karma-mocha-reporter": "^2.1.0",
     "karma-phantomjs-launcher": "^1.0.1",
     "karma-webpack": "^1.8.0",
-    "lodash": "^4.15.0",
     "material-ui": "^0.15.4",
     "materialize-css": "0.97.7",
     "mocha": "^3.0.2",
