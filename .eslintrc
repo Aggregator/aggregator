@@ -1,6 +1,7 @@
 plugins:
-  - react
   - filenames
+  - import
+  - react
 
 extends:
   - eslint:recommended
@@ -232,10 +233,13 @@ rules:
   filenames/match-exported: 1
   filenames/no-index: 1
 
+  # Import
+  import/extensions: 1
+
   # React
   react/display-name: 1
   react/forbid-prop-types: 1
-  react/no-comment-textnodes: 1
+  react/jsx-no-comment-textnodes: 1
   react/no-danger: 1
   react/no-deprecated: 1
   react/no-did-mount-set-state: 1
@@ -251,13 +255,12 @@ rules:
   react/prefer-stateless-function: 1
   react/prop-types: 1
   react/react-in-jsx-scope: 1
-  react/require-extension: 1
   react/require-optimization: 1
   react/require-render-return: 1
   react/self-closing-comp: 1
   react/sort-comp: 1
   react/sort-prop-types: 1
-  react/wrap-multilines: 1
+  react/jsx-wrap-multilines: 1
 
   #JSX-specific rules
   react/jsx-boolean-value: 1
