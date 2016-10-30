@@ -100,7 +100,7 @@
     "karma-phantomjs-launcher": "^1.0.1",
     "karma-webpack": "^1.8.0",
     "material-ui": "^0.16.0",
-    "materialize-css": "0.97.7",
+    "materialize-css": "0.97.8",
     "mocha": "^3.0.2",
     "nightwatch-autorun": "^3.0.3",
     "node-sass": "^3.10.1",
