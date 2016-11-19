@@ -96,7 +96,7 @@
     "karma": "^1.2.0",
     "karma-coverage": "^1.1.1",
     "karma-jasmine": "^1.0.2",
-    "karma-mocha-reporter": "^2.1.0",
+    "karma-mocha-reporter": "^2.2.1",
     "karma-phantomjs-launcher": "^1.0.1",
     "karma-webpack": "^1.8.0",
     "material-ui": "^0.16.3",
