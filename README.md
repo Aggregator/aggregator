@@ -1,5 +1,7 @@
 ## aggregator
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/gdumitrescu/aggregator.svg)](https://greenkeeper.io/)
+
 | Section | Status |
 |---------|--------|
 | Build | [ ![Codeship Status for gdumitrescu/aggregator](https://codeship.com/projects/34ea2580-b9fe-0133-0d07-7e2e3c15f843/status?branch=master)](https://codeship.com/projects/135608) [![wercker status](https://app.wercker.com/status/8b9f5c1d046c0ca351da1af55c6246ee/s/master "wercker status")](https://app.wercker.com/project/byKey/8b9f5c1d046c0ca351da1af55c6246ee)|
