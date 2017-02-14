@@ -32,10 +32,6 @@
     "test:e2e": "nightwatch-autorun",
     "test:watch": "npm run test -- --watch"
   },
-  "engines": {
-    "node": "4.6.0",
-    "npm": "3.10.8"
-  },
   "pre-commit": [
     "lint",
     "format",
