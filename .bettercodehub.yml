@@ -1,0 +1,6 @@
+exclude:
+- /.storybook/.*
+- /api/swagger-ui/.*
+component_depth: 1
+languages:
+- javascript
