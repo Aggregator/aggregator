@@ -39,6 +39,14 @@
     "format",
     "test"
   ],
+ 	"proxy": {
+  	"/.netlify/functions": {
+    	"target": "http://localhost:9000",
+      "pathRewrite": {
+        "^/\\.netlify/functions": ""
+      }
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gdumitrescu/aggregator.git"
