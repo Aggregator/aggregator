@@ -1,5 +1,7 @@
 ## aggregator
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Aggregator/aggregator-ui.svg)](https://greenkeeper.io/)
+
 | Section | Status |
 |---------|--------|
 | Build |[![Codefresh build status]( https://g.codefresh.io/api/badges/build?repoOwner=gdumitrescu&repoName=aggregator&branch=master&pipelineName=aggregator&accountName=gdumitrescu_github&type=cf-1)]( https://g.codefresh.io/repositories/gdumitrescu/aggregator/builds?filter=trigger:build;branch:master;service:58a290132ba86a0100b16cff~aggregator) [ ![Codeship Status for gdumitrescu/aggregator](https://codeship.com/projects/34ea2580-b9fe-0133-0d07-7e2e3c15f843/status?branch=master)](https://codeship.com/projects/135608) [![Build Status](https://travis-ci.org/gdumitrescu/aggregator.svg?branch=master)](https://travis-ci.org/gdumitrescu/aggregator) [![wercker status](https://app.wercker.com/status/8b9f5c1d046c0ca351da1af55c6246ee/s/master "wercker status")](https://app.wercker.com/project/byKey/8b9f5c1d046c0ca351da1af55c6246ee)|
