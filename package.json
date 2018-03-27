@@ -118,7 +118,7 @@
     "rimraf": "^2.5.4",
     "scss-loader": "0.0.1",
     "skin-deep": "^0.16.0",
-    "standard": "^8.0.0",
+    "standard": "^9.0.0",
     "style-loader": "^0.13.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^2.3.1",
