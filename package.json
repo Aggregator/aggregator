@@ -121,7 +121,7 @@
     "standard": "^8.0.0",
     "style-loader": "^0.13.1",
     "stylus": "^0.54.5",
-    "stylus-loader": "^2.3.1",
+    "stylus-loader": "^3.0.0",
     "surge": "^0.18.0",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.2",
