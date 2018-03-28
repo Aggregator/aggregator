@@ -3095,9 +3095,9 @@ expand-range@^1.8.1:
   dependencies:
     fill-range "^2.1.0"
 
-expect-jsx@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/expect-jsx/-/expect-jsx-3.1.0.tgz#deb159cdf5e57b6c112c0fdb0b6f82a138eef8cc"
+expect-jsx@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/expect-jsx/-/expect-jsx-4.0.0.tgz#bd1d3568f1da5d02c1b498bb773afd963dec3b46"
   dependencies:
     collapse-white-space "^1.0.0"
     react "^0.14.8 || ^15.0.1"
