@@ -81,7 +81,7 @@
     "codacy-coverage": "^2.0.0",
     "codecov": "^3.0.0",
     "css-loader": "^0.28.0",
-    "enzyme": "^2.4.1",
+    "enzyme": "^3.0.0",
     "enzyme-adapter-react-15": "^1.0.5",
     "eslint": "^4.0.0",
     "eslint-plugin-filenames": "^1.1.0",
