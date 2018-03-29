@@ -79,7 +79,7 @@
     "babel-register": "^6.16.0",
     "bithound": "^1.7.0",
     "codacy-coverage": "^2.0.0",
-    "codecov": "^2.0.0",
+    "codecov": "^3.0.0",
     "css-loader": "^0.28.0",
     "enzyme": "^2.4.1",
     "eslint": "^4.0.0",
