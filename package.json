@@ -118,7 +118,7 @@
     "react-tap-event-plugin": "^3.0.0",
     "rimraf": "^2.5.4",
     "scss-loader": "0.0.1",
-    "skin-deep": "^0.16.0",
+    "skin-deep": "^1.0.0",
     "standard": "^8.0.0",
     "style-loader": "^0.20.0",
     "stylus": "^0.54.5",
