@@ -85,7 +85,7 @@
     "enzyme-adapter-react-15": "^1.0.5",
     "eslint": "^4.0.0",
     "eslint-plugin-filenames": "^1.1.0",
-    "eslint-plugin-import": "2.9.0",
+    "eslint-plugin-import": "2.10.0",
     "eslint-plugin-promise": "^3.0.0",
     "eslint-plugin-react": "^7.0.0",
     "eslint-plugin-standard": "^3.0.0",
