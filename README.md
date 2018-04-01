@@ -7,8 +7,8 @@
 | Dependencies | [![dependencies Status](https://david-dm.org/gdumitrescu/aggregator/status.svg)](https://david-dm.org/gdumitrescu/aggregator) [![devDependencies Status](https://david-dm.org/gdumitrescu/aggregator/dev-status.svg)](https://david-dm.org/gdumitrescu/aggregator?type=dev) [![bitHound Dependencies](https://www.bithound.io/github/gdumitrescu/aggregator/badges/dependencies.svg)](https://www.bithound.io/github/gdumitrescu/aggregator/master/dependencies/npm) [![bitHound Dev Dependencies](https://www.bithound.io/github/gdumitrescu/aggregator/badges/devDependencies.svg)](https://www.bithound.io/github/gdumitrescu/aggregator/master/dependencies/npm) |
 | Security | [![NSP Status](https://nodesecurity.io/orgs/github/projects/13011e1b-1d6b-4717-bff5-6d45c88fa126/badge)](https://nodesecurity.io/orgs/github/projects/13011e1b-1d6b-4717-bff5-6d45c88fa126) |
 | Communication | [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/gdumitrescu/aggregator) |
-| Tasks | [![Stories in Ready](https://badge.waffle.io/gdumitrescu/aggregator.svg?label=ready&title=Ready)](http://waffle.io/gdumitrescu/aggregator) [![Stories in Doing](https://badge.waffle.io/gdumitrescu/aggregator.svg?label=in%20progress&title=Doing)](http://waffle.io/gdumitrescu/aggregator) [![Stories in Review](https://badge.waffle.io/gdumitrescu/aggregator.svg?label=in%20review&title=Review)](http://waffle.io/gdumitrescu/aggregator) |
-| Metrics | [![Throughput Graph](https://graphs.waffle.io/gdumitrescu/aggregator/throughput.svg)](https://waffle.io/gdumitrescu/aggregator/metrics) |
+| Tasks | [![Waffle.io - Columns and their card count](https://badge.waffle.io/Aggregator/aggregator-ui.svg?columns=all)](https://waffle.io/Aggregator/aggregator-ui) |
+| Metrics | [![Throughput Graph](https://graphs.waffle.io/Aggregator/aggregator-ui/throughput.svg)](https://waffle.io/Aggregator/aggregator-ui/metrics/throughput) |
 
 
 ### Setup
