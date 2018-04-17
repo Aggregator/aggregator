@@ -2,5 +2,21 @@
   "extends": [
     "config:base"
   ],
-  "baseBranches": ["develop"]
+  "automergeType": "branch-push",
+  "baseBranches": ["develop"],
+  "branchPrefix": "upgrades/",
+  "ignoreUnstable": true,
+  "pinVersions": false,
+  "rebaseStalePrs": true,
+  "minor": {
+    "automerge": true
+  },
+  "patch": {
+    "automerge": true
+  },
+  "schedule": [
+    "after 10pm every weekday",
+    "before 5am every weekday",
+    "every weekend"
+  ]
 }
