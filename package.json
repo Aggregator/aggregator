@@ -62,7 +62,7 @@
     "express": "^4.16.3",
     "faker": "^4.1.0",
     "lodash": "^4.17.5",
-    "netlify-lambda": "^0.3.1",
+    "netlify-lambda": "^0.4.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "whatwg-fetch": "^2.0.4"
