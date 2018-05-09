@@ -2,16 +2,14 @@
   "extends": [
     "config:base"
   ],
+  "automerge": true,
+  "major": {
+    "automerge": false
+  },
   "automergeType": "branch-push",
   "baseBranches": ["master"],
   "branchPrefix": "upgrades/",
   "ignoreUnstable": true,
   "pinVersions": false,
-  "rebaseStalePrs": true,
-  "minor": {
-    "automerge": true
-  },
-  "patch": {
-    "automerge": true
-  }
+  "rebaseStalePrs": true
 }
